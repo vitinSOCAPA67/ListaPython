@@ -1,8 +1,9 @@
 #Investimento CDB--
 print("Bem-Vindo(a) ao Centro de Investimento CDB")
 aporte = float(input("Quanto Você Vai Depositar Por Mês? "))
-juros = float(input("Qual é a Taxa de Juros Atual da Poupança? "))
+juros = 1.24
 meses = int(input("Por Quantos Meses Você Vai Investir? "))
+print("Taxa de Juro Atual do CDB: 1,24%")
 juros_decimal = juros/100
 total = 0
 for mes in range (1, meses +1):
