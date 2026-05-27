@@ -4,6 +4,6 @@ def exibir_cabecalho():
     print("SISTEMA DE GESTÃO ESCOLAR")
     print("Versão 1.0 - Desenvolvido no Codespace")
     print("=" * 30)
-    ### Chamada a Função
-    exibir_cabecalho()
-    print("Menu Principal: ")
+### Chamada a Função
+exibir_cabecalho()
+print("Menu Principal: ")
