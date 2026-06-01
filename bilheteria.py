@@ -8,14 +8,17 @@ def verificar_idade(idade):
     else:
         return "Não autorizado"
 #Aluno 3: Mensagem de retorno
-def gerar_mensagem de retorno(status):
-    if status == "Autorizado":
+def gerar_mensagem(status):
+     if status == "Autorizado":
         return "Tenha uma Otíma Sessão!"
-    else:
+     else:
         return "Sentimos, mas você não tem a idade minima."
 #Aluno 4:Execução do algoritmo
 filme_entrada = input("Digite o filme escolhido:") 
-idade_int(input("Digite sua idade: "))
+idade_entrada = int(input("Digite sua idade: "))
 nome_final = formatar(filme_entrada)
 status_acesso = verificar_idade(idade_entrada)
 mensagem = gerar_mensagem(status_acesso)
+print(f"\n Filme: {nome_final}")
+print(f"status: {status_acesso}")
+print(f"mensagem: {mensagem}")
