@@ -23,6 +23,6 @@ resultado = calculo_imc(valor_peso, valor_altura)
 saida = mensagem(classificar_imc)
 
 print("=" * 50)
-print(f"Seu IMC é: (resultado):.2f)")
-print(f"(saida)")
+print(f"Seu IMC é: {resultado:.1f}")
+print(f"{saida}")
 print("=" * 50)
